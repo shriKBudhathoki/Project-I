@@ -1,0 +1,119 @@
+*body{
+    margin:0px;
+    padding:0px;
+}
+
+ .transaction-section {
+            
+            gap:50px;
+            margin: 30px;
+        }
+
+
+        .transaction-card {
+            background: #fff;
+            border-radius: 15px;
+            padding: 125px;
+            box-shadow: 0 10px 30px rgba(255, 0, 0, 0.1);
+        }
+
+        .deposit-card {
+            border-left: 5px solid #007bff;
+            font-weight:bold;
+        }
+
+          .withdraw-card {
+            border-left: 5px solid #ff0000;
+            font-weight:bold;
+        }
+
+
+      .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: #2c3e50;
+            font-weight: 600;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+         .btn {
+            padding: 12px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            width: 100%;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #007bff, #0056b3);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4);
+        }
+
+        .btn-success {
+            background: linear-gradient(135deg, #28a745, #1e7e34);
+            color: white;
+        }
+
+        .btn-success:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(40, 167, 69, 0.4);
+        }
+
+        .btn-danger {
+            background: linear-gradient(135deg, #dc3545, #c82333);
+            color: white;
+        }
+
+        .btn-danger:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(220, 53, 69, 0.4);
+        }
+
+        .btn-secondary {
+            background: linear-gradient(135deg, #6c757d, #5a6268);
+            color: white;
+            margin-top: 20px;
+        }
+
+
+  .transaction-history {
+    margin-top: 30px;
+  }
+
+  #historyList {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  #historyList li {
+    padding: 8px;
+    margin-bottom: 5px;
+    background-color: #f8f9fa;
+    border-left: 4px solid #007bff;
+  }
+
