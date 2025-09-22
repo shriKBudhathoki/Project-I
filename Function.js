@@ -1,4 +1,7 @@
-let balance = Number(localStorage.getItem("balance")) || 0;
+let balance = Number(localStorage.getItem("balance")) || 0; // Initial Balance is 0 
+
+
+// Deposit Function
 
 function deposit() {
   let amt = document.getElementById("depo");
@@ -29,6 +32,7 @@ function deposit() {
   addToHistory("Deposit", amt1, desc1);
 }
 
+//Withdraw Function
 
 function withdrawn() {
     let amountInput = document.getElementById("withdrawn");
@@ -73,7 +77,7 @@ if (balance - amount < 500) {
 }
 
 
-
+// Toast Message Timer
 let toastTimeout;
 
 function showToast(message, type = "success") {
@@ -147,6 +151,7 @@ document.getElementById("toastClose").addEventListener("click", () => {
 //   };
 // };
 
+//Wait untill work done by the html
 window.onload = function () {
   let historyList = JSON.parse(localStorage.getItem("history")) || [];
 
