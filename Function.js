@@ -1,6 +1,14 @@
 let balance = Number(localStorage.getItem("balance")) || 0; // Initial Balance is 0 
 
 
+// Call on load
+window.onload = function () {
+  updateBalanceDisplay(); // show it immediately on page load
+
+  // your renderHistory() and other code...
+};
+
+
 // Deposit Function
 
 function deposit() {
@@ -182,3 +190,4 @@ window.onload = function () {
     renderHistory();
   };
 };
+

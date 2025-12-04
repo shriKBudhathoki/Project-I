@@ -38,29 +38,21 @@
       </ul>
     </aside>
 
+<p id="balanceDisplay">Rs. 0</p>
 
-        <!-- Toast -->
-<div id="toast" class="fixed bottom-4 right-4 bg-green-500 text-white px-6 py-3 rounded shadow-lg opacity-0 transition-opacity duration-300 z-50 overflow-hidden flex items-center justify-between gap-4">
-  <span id="toastMessage" class="text-lg" >Redirecting..</span>
-  <!-- Close button -->
-  <button id="toastClose" class="text-white font-bold">✕</button>
-  <!-- White shrinking line -->
-  <div class="absolute bottom-0 left-0 h-1 bg-white w-full" id="toastProgress"></div>
-</div>
+        <!-- <script>
+   let balance = localStorage.getItem("balance");
 
-<table class="min-w-full border border-gray-300 text-sm text-left table-auto ">
-  <thead class="bg-blue-300">
-    <tr>
-      <th class="border p-2">Type</th>
-      <th class="border p-2">Amount</th>
-      <th class="border p-2">Description</th>
-      <th class="border p-2">Time</th>
-    </tr>
-  </thead>
-  <tbody id="historyTableBody" class="bg-white divide-y divide-gray-200">
+   if(balance!=null)
+   {
+    document.getElementById("userDisplay").innerText="Rs."+balance;
+   }
 
-
-</tbody>
+   else{
+    document.getElementById("userDisplay").innerText="No Balance";
+   }
+  </script> -->
 <script src="Function.js"></script>
-</body>
-</html>
+  </div>
+  </body>
+  </html>
